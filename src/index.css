@@ -1,0 +1,16 @@
+#vimarea-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+#vimarea {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+  border: 1px solid #000;
+}

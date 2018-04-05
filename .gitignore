@@ -53,7 +53,12 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+.yarn-error.log
 
 # dotenv environment variables file
 .env
+
+.vscode
+.idea
+.DS_Store
 

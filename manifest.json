@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "vimarea",
+  "description": "edit your editable html element by vim",
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "browser_action": {
+    "default_icon": ""
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/v.js"],
+      "css": ["dist/v.css"],
+      "match_about_blank": true,
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
